@@ -1,0 +1,49 @@
+CS301 TOC
+CS352 Computer Networks
+CS353 Computer Networks Lab
+CS351 IT Workshop III: Cloud Computing
+CS306 Machine Learning
+CS316 Machine Learning Lab
+SC301 Biology
+HS305 Issues in International Trade and Finance
+CS210 Formal Languages and Automata
+CS231 Operating Systems
+CS232 Operating Systems Lab
+CS235 Artificial Intelligence
+CS240 Database Management Systems
+CS241 DBMS Lab
+MA102 Mathematics II
+CS103 Data Structures
+CS111 Data Structures Lab
+CS104 Computer Organization
+EC103 Basic Electronic Circuits
+EC111 Basic Electronics Lab
+CS401 Data Analytics
+CS445 Open Elective
+CS456 Elective I
+MA102 Mathematics II
+CS103 Data Structures
+CS111 Data Structures Lab	
+CS104 Computer Organization	
+EC103 Basic Electronic Circuits
+EC111 Basic Electronics Lab	
+HS123 HSS Elective
+MA203 Mathematics III
+EC201 Analog Circuits
+EC260 Semiconductor Devices	
+EC241 Signals and Systems	
+CS202 IT Workshop I
+EC281 Measurement and Instrumentation
+SC201 Physics I
+HS213 HSS Elective
+EC351 Digital Communication
+EC352 Digital Communication Lab
+EC301 Analog Integrated Circuits
+EC302 Analog Integrated Circuit Lab
+EC370 Electromagnetics
+EC380 Control Systems
+SC301 Biology
+HS345 HSS Elective
+EC456 Communication Network
+EC423 Elective 
+EC400 Project I
