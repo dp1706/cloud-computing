@@ -1,20 +1,17 @@
 ## DOCKER INSTALLATION AND TEST
-
+* INSTALLING
 1. installing `$ sudo apt-get install docker docker.io -y`
-2. giving permission ---$ sudo chmod 600 /var/run/docker.sock
-3. checking whether installed or not by typing ---$ docker
-4. pulling python version3.8 image ----$  docker pull python:3.8-slim
-5. checking the download image ----$ docker images
+2. giving permission `$ sudo chmod 600 /var/run/docker.sock`
+3. checking `$ docker`
+4. pulling python version3.8 image  `$  docker pull python:3.8-slim`
+5. checking the download image  `$ docker images`
 
-
-
+* CREATING CONTAINER
 6. $ docker run -dit --name=pyContainer python:3.8-slim
 7. checing the container --$ docker container ls
 8. inside container  ---$docker exec -it pyContainer /bin/bash
 
-
-now inside the shell we will check whether python is woring or not and 
-will check python version
+* INSIDE THE CONTAINER SHELL
 
 9. python -c 'print("hello world!")'
 10.python --version
@@ -23,7 +20,7 @@ will check python version
 
 
 
-
+* STOPING AND DELETING CONTAINER
 13.docker container stop pyContainer
 14.docker container rm   pyContainer
 
