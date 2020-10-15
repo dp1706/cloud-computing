@@ -1,4 +1,4 @@
-#_--------DOCKER
+## DOCKER INSTALLATION AND TEST
 
 1. installing -----$ sudo apt-get install docker docker.io -y
 2. giving permission ---$ sudo chmod 600 /var/run/docker.sock
@@ -6,13 +6,13 @@
 4. pulling python version3.8 image ----$  docker pull python:3.8-slim
 5. checking the download image ----$ docker images
 
--------------firing a container and checking---------------
+
 
 6. $ docker run -dit --name=pyContainer python:3.8-slim
 7. checing the container --$ docker container ls
 8. inside container  ---$docker exec -it pyContainer /bin/bash
 
---------we will enter in a bash which look like 'root@dwarka:/#'-------
+
 now inside the shell we will check whether python is woring or not and 
 will check python version
 
@@ -22,12 +22,12 @@ will check python version
 12.exit -(for exit from shell)
 
 
------------now we will stop and delete that  container-------------------
+
 
 13.docker container stop pyContainer
 14.docker container rm   pyContainer
 
---------------------------ASSIGNENT PART---------------------------------
+## Assignment
 
 we will create a folder in our local system and mount it to the docker
 
