@@ -30,13 +30,13 @@
 
 * Command for running wordcount mapper and reducer file which is in the hadoop_assignment directory
 
-
-> `hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-*.jar 
+```
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-*.jar 
 -input /home/dwarka/hadoop_assignment/input.txt 
 -output /home/dwarka/hadoop_assignment/output 
 -mapper /home/dwarka/hadoop_assignment/mapper.py 
 -reducer /home/dwarka/hadoop_assignment/reducer.py
-`
+```
 
 ---
 
