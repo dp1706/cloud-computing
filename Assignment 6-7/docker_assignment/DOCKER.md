@@ -1,6 +1,6 @@
 ## DOCKER INSTALLATION AND TEST
 
-1. installing -----$ sudo apt-get install docker docker.io -y
+1. installing `$ sudo apt-get install docker docker.io -y`
 2. giving permission ---$ sudo chmod 600 /var/run/docker.sock
 3. checking whether installed or not by typing ---$ docker
 4. pulling python version3.8 image ----$  docker pull python:3.8-slim
