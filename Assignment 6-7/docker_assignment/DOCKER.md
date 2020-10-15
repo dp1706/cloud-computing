@@ -1,21 +1,31 @@
 ## DOCKER INSTALLATION AND TEST
 * INSTALLING
 > installing `$ sudo apt-get install docker docker.io -y`
+
 > giving permission `$ sudo chmod 600 /var/run/docker.sock`
+
 > checking `$ docker`
+
 > pulling python version3.8 image  `$  docker pull python:3.8-slim`
+
 > checking the download image  `$ docker images`
+
 
 * CREATING CONTAINER
 > `$ docker run -dit --name=pyContainer python:3.8-slim`
+
 > checing the container  `$ docker container ls`
+
 > inside container   `$docker exec -it pyContainer /bin/bash`
 
 * INSIDE THE CONTAINER SHELL
 
 > `$ python -c 'print("hello world!")'`
+
 > `$ python --version`
+
 > `$ ls`
+
 > `$ exit` 
 
 
@@ -23,6 +33,7 @@
 * STOPING AND DELETING CONTAINER
 
 > `$ docker container stop pyContainer`
+
 > `$ docker container rm   pyContainer`
 
 ## Assignment
