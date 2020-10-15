@@ -38,24 +38,27 @@
 
 ## Assignment
 
-we will create a folder in our local system and mount it to the docker
+* We will create a folder in our local system and mount it to the docker
 
-15. creating a folder in local system --$ mkdir testfolder
-16. for finding path -- $ pwd
+> Creating a folder in local system  `$ mkdir testfolder`
 
-now we will create a new container and mount testfolder in that container
-
-17. $ docker run -dit --name=pyC -v /home/dwarka/testfolder:/myfolder python:3.8-slim
-18. docker exec -it pyC /bin/bash
+> For finding path  `$ pwd`
 
 
-after entering in shell-
+* Now we will create a new container and mount testfolder in that container
+
+> `$ docker run -dit --name=pyC -v /home/dwarka/testfolder:/myfolder python:3.8-slim`
+
+> `$ docker exec -it pyC /bin/bash`
 
 
-now we will create a assignment.py file in the local system and it will reflect in out container folder and we will run it .
+* After entering in shell-
 
-19. ls
-20. python assignment.py
+
+  Now we will create a assignment.py file in the local system and it will reflect in out container folder and we will run it .
+
+> `$ ls`
+> `$ python assignment.py`
 
 
 
