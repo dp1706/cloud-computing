@@ -1,9 +1,9 @@
 ## HANDOOP INSTALLATION
+---
 
-
-### UBUNTU VERSION :  18.04
-### JAVA PRE-INSTALLED VERSION : 11.0.6( TO install -- sudo apt-get install default-jdk )
-
+#### UBUNTU VERSION :  18.04
+#### JAVA PRE-INSTALLED VERSION : 11.0.6( To install -- `sudo apt-get install default-jdk` )
+---
 * Commands:
 
 > `sudo apt-get install update`
@@ -32,6 +32,5 @@
 
 > `hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-*.jar -input /home/dwarka/hadoop_assignment/input.txt -output /home/dwarka/hadoop_assignment/output -mapper /home/dwarka/hadoop_assignment/mapper.py -reducer /home/dwarka/hadoop_assignment/reducer.py`
 
-
------------------done    -----------------
+---
 
