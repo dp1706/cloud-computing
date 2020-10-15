@@ -10,7 +10,7 @@
 
 >`sudo apt-get update`
 
-> `sudo wget http://mirrors.estointernet.in/apache/hadoop/common/hadoop-2.10.0/hadoop-2.10.0.tar.gz` 
+> `sudo wget http://mirrors.estointernet.in/apache/hadoop/common/hadoop-2.10.0/hadoop-2.10.0.tar.gz` or [click here](http://mirrors.estointernet.in/apache/hadoop/common/hadoop-2.10.0/hadoop-2.10.0.tar.gz)
 
 > `tar -xzvf hadoop-2.10.0.tar.gz`
 
