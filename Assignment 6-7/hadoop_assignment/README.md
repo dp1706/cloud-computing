@@ -5,7 +5,8 @@
 #### JAVA PRE-INSTALLED VERSION : 11.0.6( To install -- `sudo apt-get install default-jdk` )
 ---
 * Commands:
-
++
+...............................
 > `sudo apt-get install update`
 
 >`sudo apt-get update`
@@ -23,6 +24,8 @@
 > `export PATH=$PATH:$JAVA_HOME/bin`
 
 > `export PATH=$PATH:/usr/local/hadoop/bin`
+
+..................................................
 
 * To find version and check hadoop is installed properly
 
